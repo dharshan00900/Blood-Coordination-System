@@ -1,0 +1,14 @@
+{
+  "name": "lifelink",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LifeLink — Emergency Blood Donor Matching & Response Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "start": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "npm --prefix backend start",
+    "seed": "npm --prefix backend run seed",
+    "build": "npm --prefix frontend run build"
+  }
+}
